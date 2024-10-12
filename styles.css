@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     letter-spacing: 0.1vw;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 body{
@@ -13,18 +14,24 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url('fondo.jpg'); /* Asegúrate de colocar la ruta correcta */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; 
 }
 
 div{
+    display: flex;
+    justify-content: center;
     position: fixed;
-    top: 42vh;
+    top: 45vh;
     width: 80vw;
 }
 
 #contenedorFrase{
     display: inline;
     font-size: 4vw;
-    border-right: 0.2vw solid #000;
+    border-right: 0.2vw solid #fff;
     word-wrap: break-word;
 }
 
@@ -32,9 +39,10 @@ div{
     font-size: 4vw;
     background-color: transparent;
     border-radius: 50px;
-    padding: 2vw;
+    border: 4px solid #fff;
+    padding: 1.5vw;
 }
 
 #activador:hover {
-    border: 4px solid #000;
+    border: 6px solid #fff;
 }

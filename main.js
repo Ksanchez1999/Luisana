@@ -38,7 +38,7 @@ const maquinaDeEscribir = (texto, tiempo = 190) => {
     let arrayDeCaracteres = texto.split("");
     let contador = 0;
     let escribir = setInterval(() => {
-        let caracter = arrayDeCaracteres[contador] === " " ? "<span style='color: white;'>.</span>" : arrayDeCaracteres[contador];
+        let caracter = arrayDeCaracteres[contador] === " " ? "<span style='color: transparent;'>.</span>" : arrayDeCaracteres[contador];
         contenedorFrase.innerHTML += caracter;
         contador++;
         if (contador === arrayDeCaracteres.length) {
