@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div{
+    position: fixed;
+    top: 50vh;
+    width: 80vw;
+}
+
+#contenedorFrase{
+    display: inline;
+    font-size: 5vw;
+    border-right: 0.2vw solid #000;
+    word-wrap: break-word;
+}
+
+#activador{
+
+    
+}
