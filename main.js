@@ -1,21 +1,38 @@
-const frases = ["Te quiero muchooooooooooooo",
-"Eres mi princesa",
-"Pienso mucho en ti",
-"Eres alguien muy importante en mi vida",
-"Mi cariño no disminuye cuando no hablamos, siempre crece cuando te recuerdo",
-"Aunque no esté contigo en este momento, quiero que sepas que siempre estoy pensando en ti",
-"Eres muy importante para mí, y aunque no pueda estar siempre contigo, mi cariño por ti no cambia.",
-"Tu felicidad es mi prioridad, y siempre haré lo posible para que te sientas querida.",
-"Quiero verte (No importa cuando lo leas)",
-"Cada segundo lejos de ti me hace saber que nuestro reencuentro será aún más especial.",
-"Te quiero ¿Ya lo había dicho?."];
+const frases = ["Eres muy importante para mí.",
+"Te quiero.",
+"Te extraño.",
+"Tu felicidad es mi prioridad.",
+"Aking tiene nuevo papá.",
+"Muestro mi cariño de forma poco común.",
+"Eres mi princesa.",
+"Eres mi novia.",
+"Eres fuerte.",
+"Eres valiente.",
+"Eres mi persona favorita.",
+"Siempre estaré presente en estos escritos.",
+"Estoy para protegerte.",
+"Voy a cuidarte.",
+"Te quiero.",
+"Te quiero, ¿ya lo había dicho?.",
+"Yo también te extraño.",
+"Yo también te extraño.",
+"Yo también te extraño.",
+"Yo tambien te extraño.",
+"Eres mi ingeniero favorito.",
+"Demuestras cada día tener buenos valores.",
+"Crearemos una historia de éxito juntos.",
+"Eres muy inteligente.",
+"Eres muy interesante.",
+"...",
+
+];
 
 const contenedorFrase = document.getElementById("contenedorFrase");
 const activador = document.getElementById("activador");
 
 contenedorFrase.style.display = "none";
 
-const maquinaDeEscribir = (texto, tiempo = 200) => {
+const maquinaDeEscribir = (texto, tiempo = 190) => {
     contenedorFrase.style.display = "";
     activador.style.display = "none";
     let arrayDeCaracteres = texto.split("");
@@ -26,13 +43,12 @@ const maquinaDeEscribir = (texto, tiempo = 200) => {
         contador++;
         if (contador === arrayDeCaracteres.length) {
             clearInterval(escribir);
-
+            
             setTimeout(()=>{
                 contenedorFrase.innerHTML = "";
                 contenedorFrase.style.display = "none";
                 activador.style.display = "";
             },2000)
-
         }
     }, tiempo);
 }
