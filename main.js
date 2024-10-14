@@ -35,7 +35,7 @@ const activador = document.getElementById("activador");
 
 contenedorFrase.style.display = "none";
 
-const maquinaDeEscribir = (texto, tiempo = 190) => {
+const maquinaDeEscribir = (texto, tiempo = 180) => {
     contenedorFrase.style.display = "";
     activador.style.display = "none";
     let arrayDeCaracteres = texto.split("");
