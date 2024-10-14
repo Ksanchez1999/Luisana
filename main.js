@@ -24,7 +24,10 @@ const frases = ["Eres muy importante para mí.",
 "Eres muy inteligente.",
 "Eres muy interesante.",
 "...",
-
+"Eres pieza fundamental en tu trabajo.",
+"Tienes un cuerpo de modelo.",
+"Tienes una mente brillante.",
+"Tienes una inteligencia envidiable.",
 ];
 
 const contenedorFrase = document.getElementById("contenedorFrase");
