@@ -28,7 +28,12 @@ const frases = ["Eres muy importante para mí.",
 "Eres pieza fundamental en tu trabajo.",
 "Tienes un cuerpo de modelo.",
 "Tienes una mente brillante.",
+"Quiero abrazarte.",
 "Tienes una inteligencia envidiable.",
+"Estoy orgulloso de ti.",
+"Eres mi niña de buenos valores.",
+"Pienso mucho en ti.",
+"03/11/2024, primera película en mi casa juntos <3.",
 ];
 
 const contenedorFrase = document.getElementById("contenedorFrase");
