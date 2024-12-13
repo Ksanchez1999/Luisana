@@ -37,10 +37,12 @@ const frases = ["Eres muy importante para mí.",
 "Eres toda una deportista.",
 "Das todo de ti en el gym, eso es admirable.",
 "Nuestro primer mes <3 (6/11/2024).",
+"Nuestro segundo mes <3 (6/12/2024).",
 ];
 
 const contenedorFrase = document.getElementById("contenedorFrase");
 const activador = document.getElementById("activador");
+
 
 contenedorFrase.style.display = "none";
 
