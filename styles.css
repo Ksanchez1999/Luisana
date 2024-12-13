@@ -30,8 +30,8 @@ div{
 
 #contenedorActualizaciones{
     display: inline-block;
-    width: 1.8vw;
-    height: 1.8vw;
+    width: 2vw;
+    height: 2vw;
     position: fixed;
     top: 5px;
     left: 5px;
@@ -58,11 +58,3 @@ div{
     border: 6px solid #fff;
 }
 
-
-#iconoAhorro {
-    width: 5vw;
-    height: 5vw;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
