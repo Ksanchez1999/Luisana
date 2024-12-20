@@ -38,6 +38,7 @@ const frases = ["Eres muy importante para mí.",
 "Das todo de ti en el gym, eso es admirable.",
 "Nuestro primer mes <3 (6/11/2024).",
 "Nuestro segundo mes <3 (6/12/2024).",
+"Me gusta cuando sonries.",
 ];
 
 const contenedorFrase = document.getElementById("contenedorFrase");
