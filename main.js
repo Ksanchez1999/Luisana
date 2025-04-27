@@ -43,6 +43,7 @@ const frases = ["Eres muy importante para mí.",
 "Nuestro tercer mes <3 (6/1/2024).",
 "Eres una persona de muy alto valor.",
 "Tienes un futuro brillante.",
+"Eres la mejor bailarina."
 ];
 
 const contenedorFrase = document.getElementById("contenedorFrase");
